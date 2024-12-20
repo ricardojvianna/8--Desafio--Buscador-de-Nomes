@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="pt-Br">
+
+<head>
+
+    <title> Buscador de Nomes </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="caixa">
+        <h1> Busque pelo seu nome:</h1>
+        <input placeholder="Digite o nome da conta">
+        <button onclick="search()">Procurar Contato</button>
+        <p></p>
+
+    </div>
+
+</body>
+
+<style>
+    * {
+
+        margin: 0;
+        padding: 0;
+        outline: none;
+        border: none;
+        box-sizing: border-box;
+        font-family: "Open Sans", "Roboto", sans-serif;
+    }
+
+    body {
+        background: #06e32b;
+        background-size: cover;
+
+    }
+
+    .caixa {
+        background: #038d2e;
+        margin: 200px auto;
+        width: 600px;
+        height: 550px;
+        padding: 30px;
+        border-radius: 30px;
+        display: grid;
+        place-items: center;
+        box-shadow: 10px 15px 20px #131312;
+
+    }
+
+    h1 {
+        font-size: 46px;
+        font-family: "Roboto";
+        font-weight: 900;
+        line-height: 36px;
+        color: #f94f00;
+        text-shadow: 10px 10px 5px #131312;
+        cursor: grab;
+        margin-top: 10px;
+    }
+
+    input {
+        width: 550px;
+        height: 90px;
+        border-radius: 10px;
+        color: black;
+        font-size: 36px;
+        font-weight: 600;
+        font-style: bold;
+        background: #fff;
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    button {
+        width: 200px;
+        height: 100px;
+        border-radius: 10px;
+        background: #ea5109;
+        color: #09010b;
+        font-size: 36px;
+        font-weight: 700;
+        margin-top: 40px;
+        padding: 5px;
+        box-shadow: 10px 10px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        height: 120px;
+        color: #fff;
+    }
+
+    p {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 46px;
+        color: #fff;
+        margin-top: 10px;
+        cursor: grab;
+        text-align: center;
+    }
+    
+</style>
+
+<script src="./scripts.js"></script>
+
+</html>
